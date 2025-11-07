@@ -25,16 +25,20 @@
 // } else console.log('C');
 
 
-let marks = prompt("Enter your marks:");
+// let marks = prompt("Enter your marks:");
 
-if  (marks < 0 || marks > 100) {
-    alert("Invalid marks");
-} else if (marks >= 90) {
-    alert("COngratulations! You got A* grade.");
-} else if (marks >= 80) {
-    alert("Hurray! You got A+ garde.");
-} else if (marks >= 70) {
-    alert("You got A grade.");
-} else if (marks < 70 && marks >= 60) {
-    alert("Failed")
+// if  (marks < 0 || marks > 100) {
+//     alert("Invalid marks");
+// } else if (marks >= 90) {
+//     alert("COngratulations! You got A* grade.");
+// } else if (marks >= 80) {
+//     alert("Hurray! You got A+ garde.");
+// } else if (marks >= 70) {
+//     alert("You got A grade.");
+// } else if (marks < 70 && marks >= 60) {
+//     alert("Failed")
+// }
+
+for (let i = 1; i <= 20; i++) {
+    console.log("Count:", i);
 }
