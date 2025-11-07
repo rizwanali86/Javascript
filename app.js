@@ -39,6 +39,14 @@
 //     alert("Failed")
 // }
 
-for (let i = 1; i <= 20; i++) {
-    console.log("Count:", i);
-}
+// for (let i = 1; i <= 10; i++) {
+//     console.log("Count:", i);
+// }
+
+// let Count = 1;
+// while(count <= 3) {
+//     console.log(count); count ++;
+// } 
+
+for (let i = 1; i <= 10; i++) {
+if (i === 5) continue; console.log(i); }
