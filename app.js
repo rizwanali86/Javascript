@@ -51,5 +51,45 @@
 // for (let i = 1; i <= 10; i++) {
 // if (i === 5) continue; console.log(i); }
 
-function greet() { console.log('Hello, World!'); }
-greet();
+// function hello() { console.log("Hello, World!"); }
+// hello();
+// hello();
+// hello();
+// hello();
+
+// function add(a,b) { document.writeln("Hello")
+//     return a + b;
+// }
+
+// let sum = add (5,3);
+// console.log(sum);
+
+
+// function substract (a,b) {
+//     return a - b;
+// }
+
+// let substraction = substract (5,3);
+// console.log(substraction);
+
+// function multiple(a,b) {
+//     return a * b;
+// }
+
+// let multiplilication = multiple (5,3);
+// console.log(multiplilication);
+
+// function divide(a,b) {
+//     return a / b;
+// }
+
+// let division = divide (10,2);
+// console.log(division);
+
+
+
+const add=(a,b) => a+b;
+console.log(add(5,6))
+
+const greet = (name) => `Hello, ${name}!`;
+console.log (greet('Rizwan'))
