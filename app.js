@@ -88,8 +88,19 @@
 
 
 
-const add=(a,b) => a+b;
-console.log(add(5,6))
+// const add=(a,b) => a+b;
+// console.log(add(5,6))
 
-const greet = (name) => `Hello, ${name}!`;
-console.log (greet('Rizwan'))
+// const greet = (name) => `Hello, ${name}!`;
+// console.log (greet('Rizwan'))
+
+const clickButton = document.getElementById("click-me");
+
+clickButton.addEventListener("click", () => {
+    alert('Clicked Button');
+})
+
+const nav = document.createElement('nav');
+nav.textContent = 'Home, About, Contact';
+console.log(nav);
+document.body.appendChild(nav)
