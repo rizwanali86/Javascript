@@ -94,13 +94,30 @@
 // const greet = (name) => `Hello, ${name}!`;
 // console.log (greet('Rizwan'))
 
-const clickButton = document.getElementById("click-me");
+// const clickButton = document.getElementById("click-me");
 
-clickButton.addEventListener("click", () => {
-    alert('Clicked Button');
-})
+// clickButton.addEventListener("click", () => {
+//     alert('Clicked Button');
+// })
 
-const nav = document.createElement('nav');
-nav.textContent = 'Home, About, Contact';
-console.log(nav);
-document.body.appendChild(nav)
+// const nav = document.createElement('nav');
+// nav.textContent = 'Home, About, Contact';
+// console.log(nav);
+// document.body.appendChild(nav)
+
+// 
+
+// const user = {name: "RIZWAN,Ali,Ahmed,", age: 20};
+// console.log(user.name);
+// console.log(user.age);
+
+const car = {
+    make: "Suzuki",
+    model: "Alto",
+    varient: "vxr",
+    start(){console.log("started")},
+    stop(){console.log("stoped")},
+}
+
+console.log(car);
+console.log(car.start(), car.stop());
