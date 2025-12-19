@@ -177,3 +177,11 @@ function divide(func, number1, number2) {
 }
 
 divide(console.log, 16, 3);
+
+const p = new Promise((res, rej) => {
+    rej("Araa bhai fail hop gaya!")
+});
+
+p.then((res) => console.log("Then called", res))
+.catch((rej) => console.log("Catch called:", rej))
+.finally(() => console,log("Promise done!"));
