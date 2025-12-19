@@ -111,13 +111,69 @@
 // console.log(user.name);
 // console.log(user.age);
 
-const car = {
-    make: "Suzuki",
-    model: "Alto",
-    varient: "vxr",
-    start(){console.log("started")},
-    stop(){console.log("stoped")},
+// const car = {
+//     make: "Suzuki",
+//     model: "Alto",
+//     varient: "vxr",
+//     start(){console.log("started")},
+//     stop(){console.log("stoped")},
+// }
+
+// console.log(car);
+// console.log(car.start(), car.stop());
+
+
+// class car {
+//     constructor(make, model, variant) {
+//         this.make = make;
+//         this.model = model;
+//         this.variant = variant;
+//     }
+
+//     start() {
+//         console.log(
+//             `The car ${this.model} by ${this.make} (${this.variant}) is STARTING!!!`
+//         );
+//     }
+// }
+
+// const toyota = new car("Toyota", "Grande", "1.6");
+// const kia = new car("KIA", "Sportage", "GLX Cvt");
+
+// toyota.start();
+// kia.start();
+
+// class animal {
+//     constructor(type, name, sound) {
+//         this.type = type
+//         this.name = name
+//         this.sound = sound
+//     }
+
+//     makesound () {
+//         console.log(
+//             `The ${this.type} ${this.name} sound is ${this.sound}`
+//         );
+//     }
+// }
+
+// const dog = new animal("Animal", "Dog", "Bark");
+// dog.makesound();
+
+function sum() {
+    console.log(6+4);
 }
 
-console.log(car);
-console.log(car.start(), car.stop());
+sum(console.log);
+
+function add(number1, number2, func) {
+    func(number1 * number2);
+}
+
+add(8, 5, console.log);
+
+function divide(func, number1, number2) {
+    func(number1 / number2);
+}
+
+divide(console.log, 16, 3);
